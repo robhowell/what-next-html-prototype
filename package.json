@@ -1,0 +1,33 @@
+{
+  "name": "what-next",
+  "version": "0.0.1",
+  "description": "Add dependencies to your Wunderlist tasks, and view them in a flow chart.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robhowell/what-next.git"
+  },
+  "keywords": [
+    "wunderlist",
+    "gantt",
+    "node.js"
+  ],
+  "author": "Rob Howell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robhowell/what-next/issues"
+  },
+  "homepage": "https://github.com/robhowell/what-next#readme",
+  "dependencies": {
+    "babel-core": "^5.4.3",
+    "babel-loader": "^5.1.2",
+    "node-libs-browser": "^0.5.0",
+    "request": "^2.55.0",
+    "request-json": "^0.5.3",
+    "webpack": "^1.9.7"
+  }
+}
