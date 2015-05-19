@@ -1,2 +1,4 @@
 # what-next
-Add dependencies to your Wunderlist tasks, and view your tasks in a flow chart.
+
+Add dependencies to your [Wunderlist](http://www.wunderlist.com) tasks, and view them in a flow chart.
+
