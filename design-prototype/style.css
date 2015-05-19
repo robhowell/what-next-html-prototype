@@ -1,0 +1,72 @@
+html {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   font-weight: 300;
+}
+
+body {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 960px;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 100;
+}
+
+.lists, .list, .list-steps {
+  display: -webkit-flex;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list-name, .list-step {
+  background-color: #0D9FD8;
+}
+
+.lists {
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+  .list {
+    margin-bottom: 10px;
+  }
+
+    .list-name {
+      color: white;
+      padding: 10px;
+      height: 100%;
+      margin: 0;
+      position: relative;
+    }
+
+    .list-steps {
+      height: 100%;
+    }
+
+    .list-step {
+      color: white;
+      height: 100%;
+      margin: 0;
+      margin-left: 10px;
+      padding: 10px;
+      position: relative;
+    }
+
+      .list-name .list-step-arrow, .list-step .list-step-arrow {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        transform: scale(0.707) rotate(-45deg);
+        -webkit-transform: scale(0.707) rotate(-45deg);
+        -webkit-transform-origin: right top;
+        z-index: -1;
+      }
+
+      .list-item {
+
+      }
