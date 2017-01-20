@@ -4,5 +4,5 @@ client.headers['X-Client-ID'] = process.env.WHAT_NOW_CLIENT_ID;
 client.headers['X-Access-Token'] = process.env.WHAT_NOW_ACCESS_TOKEN;
 
 client.get('/api/v1/lists', function(err, response, body) {
-  console.log(response.toJSON());
+  console.log(JSON.stringify(body, null, 2));
 });
